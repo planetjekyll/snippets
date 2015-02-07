@@ -3,7 +3,7 @@ layout: snippet
 title:  "Reading Time (e.g. 3 mins) with _includes/reading_time.html Template"
 ---
 
-## {% page.title %}
+## {{ post.title }}
 
 To add the reading time (e.g. 3 mins) to your posts include the `reading_time.html`
 template in your post layout. Example:
