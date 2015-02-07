@@ -1,5 +1,5 @@
 ---
-layout: snippets
+layout: snippet
 title:  "Build Your Navigation Menu Using _data/nav.yml"
 ---
 
@@ -25,6 +25,7 @@ In your `_data` folder add a new navigation file. Example:
 `_includes/nav.html`:
 
 ~~~
+{% raw %}
 <nav>
   <ul>
     {% for nav in site.data.nav %}
@@ -49,6 +50,7 @@ In your `_data` folder add a new navigation file. Example:
     {% endfor %}
   </ul>
 </nav> 
+{% endraw %}
 ~~~
 
 Note: U+25BC (`&#x25BC;`) is the unicode for a black down-pointing triange (e.g. `▼`)

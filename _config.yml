@@ -1,0 +1,29 @@
+###########
+# site.url, site.title
+
+title: "Jekyll Snippets (Tips 'n' Tricks) Series | Planet Jekyll"
+url:   http://planetjekyll.github.io/snippets
+
+########
+# more settings
+
+permalink: /:title.html
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+###
+# todo/check:
+#   possible to exclude *.ini ???
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
