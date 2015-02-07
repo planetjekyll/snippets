@@ -4,14 +4,20 @@
    <meta charset="utf-8">
    <title>{{ page.title }} - {{ site.title }}</title>
    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" >
-   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="Jekyll Snippets News Feed">
+   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/../themes/feed.xml" title="Jekyll Themes News Feed">
+   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="Jekyll Snippets (Tips 'n' Tricks) News Feed">
+   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/../feed.xml" title="Jekyll Links 'n' Bookmarks News Feed">
 </head>
 <body>
 
   <div id="nav">
     <a href="http://planetjekyll.herokuapp.com">Planet Jekyll</a> •
 
+    <a href="{{ site.url }}/../themes/index.html">Jekyll Theme of the Month Series</a> •
+
     <a href="{{ site.url }}/index.html">Jekyll Snippets (Tips 'n' Tricks)</a> •
+
+    <a href="{{ site.url }}/../index.html">Jekyll Links 'n' Bookmarks</a> •
 
     <a href="https://github.com/planetjekyll/planetjekyll.github.io/blob/master/QUICKREF.md">Jekyll Quick Reference (Cheat Sheet)</a> •
 
