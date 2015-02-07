@@ -3,6 +3,9 @@ layout: snippet
 title:  "Build Your Navigation Menu Using _data/nav.yml"
 ---
 
+## {% page.title %}
+
+
 In your `_data` folder add a new navigation file. Example:
 
 `_data/nav.yml`:
