@@ -60,5 +60,5 @@ Note: U+25BC (`&#x25BC;`) is the unicode for a black down-pointing triange (e.g.
 
 ## Sources
 
-- [Using _data to Build Jekyll Navigation](http://chrisanthropic.github.io/slim-pickins-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation/)
+- [Using _data to Build Jekyll Navigation](http://chrisanthropic.github.io/slim-pickins-jekyll-theme//blog/2014/using-_data-to-build-jekyll-navigation)
 
