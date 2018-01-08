@@ -8,16 +8,16 @@ title:  "Reading Time (e.g. 3 mins) with _includes/reading_time.html Template"
 To add the reading time (e.g. 3 mins) to your posts include the `reading_time.html`
 template in your post layout. Example:
 
-~~~
+```
 {% raw %}
 {% include reading_time.html %}
 {% endraw %}
-~~~
+```
 
 
 `_includes/reading_time.html`:
 
-~~~
+```
 {% raw %}
 <span class="reading-time" title="Estimated read time">
   {% assign words = content | number_of_words %}
@@ -28,9 +28,10 @@ template in your post layout. Example:
   {% endif %}
 </span>
 {% endraw %}
-~~~
+```
 
-Note: The template assumes a reading speed of 180 words per minute (WPM). 
+Note: The template assumes a reading speed of 180 words per minute (WPM).
+
 
 
 ## Sources

@@ -9,7 +9,7 @@ In your `_data` folder add a new navigation file. Example:
 
 `_data/nav.yml`:
 
-~~~
+``` yaml
 - title: "Home"
   href: "/"
 
@@ -22,11 +22,11 @@ In your `_data` folder add a new navigation file. Example:
       subhref: "#"
     - subtitle: "Example2"
       subhref: "#"
-~~~
+```
 
 `_includes/nav.html`:
 
-~~~
+```
 {% raw %}
 <nav>
   <ul>
@@ -44,21 +44,21 @@ In your `_data` folder add a new navigation file. Example:
          <li class="active">
            <a href="{{ nav.url }}">{{ nav.title }}</a>
          </li>
-      {% else %} 
+      {% else %}
         <li>
           <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
         </li>
       {% endif %}
     {% endfor %}
   </ul>
-</nav> 
+</nav>
 {% endraw %}
-~~~
+```
 
 Note: U+25BC (`&#x25BC;`) is the unicode for a black down-pointing triange (e.g. `▼`)
+
 
 
 ## Sources
 
 - [Using _data to Build Jekyll Navigation](http://chrisanthropic.github.io/slim-pickins-jekyll-theme/blog/2014/using-_data-to-build-jekyll-navigation/)
-
