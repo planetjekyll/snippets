@@ -1,7 +1,7 @@
 # Jekyll Snippets (Tips 'n' Tricks)
 
 Welcome. The Jekyll Snippets chapter
-collecting tips 'n' tricks about all things Jekyll and friends.
+collects tips 'n' tricks about all things Jekyll and friends.
 
 Do you have any Jekyll tips or tricks that you'd like to write about?
 We love guest posts.
